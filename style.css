@@ -1,0 +1,46 @@
+:root {
+  --bg-nav: #051b54;
+  --bg-button: #ffffff33;
+  --section-bg: #62dad3;
+  --color-form-font: #051b54;
+  --color-border: #051b541e;
+  --font-logo: Gill-Sans;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+select {
+  width: fit-content;
+}
+.logo {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.bgnav {
+  background-color: var(--bg-nav);
+}
+.btn-my-button {
+  background-color: var(--bg-button);
+}
+.bgsection {
+  background-color: var(--section-bg);
+}
+.char {
+  color: var(--color-form-font) !important;
+}
+.inputs {
+  color: var(--color-form-font) !important;
+  border-style: solid !important;
+  border-color: var(--color-border) !important;
+}
+.borderPersonalizado {
+  color: var(--color-form-font) !important;
+  border-style: solid !important;
+  border-color: var(--color-border) !important;
+}
+.borderPersonalizado:hover {
+  color: white !important;
+  background-color: var(--color-form-font);
+  border: transparent !important;
+}
